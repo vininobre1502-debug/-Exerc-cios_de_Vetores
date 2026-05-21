@@ -6,13 +6,11 @@ int main() {
     int i;
     int pares = 0, impares = 0;
 
-    // LOOP 1: Apenas para leitura dos dados
     for(i = 0; i < 10; i++) {
         printf("Digite o numero inteiro %d: ", i + 1);
         scanf("%d", &vetor[i]);
     }
 
-    // LOOP 2: Separado apenas para processar os pares e impares
     for(i = 0; i < 10; i++) {
         if(vetor[i] % 2 == 0) {
             pares++;

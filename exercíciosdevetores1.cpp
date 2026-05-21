@@ -6,13 +6,11 @@ int main() {
     float soma = 0, media;
     int i;
 
-    // LOOP 1: Apenas para leitura dos dados
     for(i = 0; i < 10; i++) {
         printf("Digite o numero %d: ", i + 1);
         scanf("%f", &vetor[i]);
     }
 
-    // LOOP 2: Separado apenas para o calculo (Exigencia do professor)
     for(i = 0; i < 10; i++) {
         soma += vetor[i];
     }
